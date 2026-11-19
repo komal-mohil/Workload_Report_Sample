@@ -13,3 +13,8 @@ A sample reports developed using data from `WarehouseDB`, which contains data so
      Report Source : WarehouseDB.dbo.FactTESurvey = udv_transferee_survey_view_34 (Service Engine)
 
 - **[View TE Survey Report](TESurvey.html)**
+
+#### 3. Survey by Supplier Reports
+     Report Source : WarehouseDB.dbo.FactTESurvey = udv_transferee_survey_view_34 (Service Engine)
+
+- **[View Survey by Supplier Report](SurveybySupplier.html)**
