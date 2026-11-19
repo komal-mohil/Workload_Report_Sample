@@ -1,5 +1,3 @@
-# SE_Only_Report_Sample
-
 A sample reports developed from Service Engine (SE).
 
 ### Available Reports
