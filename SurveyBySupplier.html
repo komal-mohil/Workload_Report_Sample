@@ -231,7 +231,6 @@ tr.srow td:first-child { padding-left: 40px; }
 
     <div class="actions">
       <button type="button" id="b-export">Export to Excel (CSV)</button>
-      <button type="button" class="secondary" id="b-print">Print / PDF</button>
       <button type="button" class="secondary" id="b-reset">Reset</button>
     </div>
   </form>
@@ -493,7 +492,6 @@ $('f-sample').addEventListener('change', () => refreshSelects(true));
 $('selections').addEventListener('change', render);
 $('selections').addEventListener('submit', e => e.preventDefault());
 $('b-export').addEventListener('click', exportCsv);
-$('b-print').addEventListener('click', () => window.print());
 $('b-reset').addEventListener('click', () => { $('selections').reset(); refreshSelects(false); render(); });
 render();
 </script>
